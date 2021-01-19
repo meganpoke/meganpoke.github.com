@@ -27,20 +27,21 @@ header {
 #banner {
     width: 800px;
     height: 200px;
-    background-color:#EDD5CD;
+    background-color:#252525;
     margin-left:auto;
         margin-right:auto;
         text-align: center;
-        
+        border-radius: 30px;
 }
 #box1  {
-    background-color:#B2D2DE;
+    background-color:#3f3f3f;
     width: 200px;
     height: 50px;
     color: #fff;
+    
     transition-property: width;
     transition-duration: 3s;
-
+    border-radius: 30px;
 }
 #box1:hover{
     width: 500px;
@@ -48,18 +49,20 @@ header {
 }
 
 #box2  {
-    background-color:#C8E5BE;
+    background-color:rgb(192, 192, 192);
     width: 200px;
     height:90px;
+    opacity: 40%;
     transition-property: width;
     transition-duration: 3s;
+    border-radius: 50px;
 }
 #box2:hover{
     width: 600px;
     cursor: pointer;
 }
 #box3  {
-    background-color:orange;
+    background-color:rgb(104, 102, 99);
     width: 200px;
     height: 60px;
     transition-property: width;
@@ -67,17 +70,18 @@ header {
     animation-name: animate;
     animation: animate 5s linear infinite;
     animation-delay: 0s;
+    border-radius: 30px;
 }
 
 @keyframes animate {
     0% {
-        background-color: orange;
+        background-color: rgb(104, 102, 99);
     }
     50% {
-        background-color: orangered;
+        background-color: rgb(185, 183, 183);
     }
     0% {
-        background-color: orange;
+        background-color: rgb(104, 102, 99);
     }
 
 }
@@ -95,6 +99,7 @@ main {
     justify-content: space-between;
     margin-top: 120px;
     padding-top: 20px;
+    border-radius: 25px;
 }
 ul {
     list-style-type: none;
@@ -104,7 +109,8 @@ padding-right: 40px;
 
 a {
     text-decoration: none ;
-    color: grey;
+    color: rgb(116, 114, 114);
+    opacity: 70%;
     line-height: 150%;
 }
 
@@ -115,15 +121,16 @@ footer {
     
 }
 
-li:hover {
-    background-color: #C8E5BE;
-    
+li:hover a{
+    color: black;
+    opacity: 60%;
 }
 
 h2 {
     font-size: 20px;
     padding-left: 40px;
     padding-right: 50px;
+    opacity: 70%;
 }
 
 footer {
