@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <script>
+      var yourName = prompt ('provide your name','');
+      var animal = ['cat','horse','dog','rabbit'];
+      
+      function hello(name){
+        
+        var greeting;
+          
+          if (name == null || name =='') {
+              greeting = "Please type your name";
+          }
+          else {
+              greeting = `Hello ${name}, and welcome!`;
+            
+          }
+          return greeting;
+          
+      }
+      
+      function hospility(name, gift) {
+          console.log(hello(name));
+          for ( var i=0; i< gift.length; i++) {
+              console.log(`${name}, do you like ${gift[i]}?`);
+             
+          }
+      }
+      hospility(yourName, animal);
+      document.write("I hope you like one of the animals written in the console:)");
+    </script>
+
+</body>
+</html>
