@@ -2,39 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, max-width=1366, max-height=768, initial-scale=1.0">
     <title>Build Mad Lib ScriptBu</title>
     <script src ="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Build a Mad Lib Script</h1>
+        <h1>How to Hatch a Dragon Egg</h1>
     </header>
-
-    <main>
-        <article id ="madlib">
+   <!--  <div id=image>
+        <img src="images/egg.png">
+    </div>
+ -->
+    <main id=container>
+     <div id=img>
+    <img src="images/egg1.png">
+    
+     </div>
+  
+      <article id ="madlib">   
 <form id="myform">
-    <label for ="noun1">Provide a Name</label>
-    <input type="text" id="noun1" >
+    <label for ="num1">Provide a big number</label>
+    <input type="text" id="num1" >
 
-    <label for ="noun2">Provide another Noun</label>
-    <input type="text" id="noun2" >
+    <label for ="num2">Provide another number</label>
+    <input type="text" id="num2" >
 
-    <label for ="noun3">Provide another Noun </label>
-    <input type="text" id="noun3" >
+    <label for ="num3">Provide a bigger number </label>
+    <input type="text" id="num3" >
 
-    <label for ="noun4">Provide another Noun</label>
-    <input type="text" id="noun4" >
+    <label for ="adj1">Provide an Adjective</label>
+    <input type="text" id="adj1" >
 
-    <label for ="noun5">Provide another Noun</label>
-    <input type="text" id="noun5">
+    <label for ="noun1">Provide a noun</label>
+    <input type="text" id="noun1">
+
+    <label for ="noun2">Provide another noun</label>
+    <input type="text" id="noun2">
 
 
-
-    <input type ="submit" value="Send">
+<!-- 
+    <input type ="submit" value="Send"> -->
+    <button type ="submit">submit</button>
+   
 </article>
 </form>
-    </main>
 
     <footer>
 
