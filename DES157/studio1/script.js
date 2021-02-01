@@ -42,6 +42,7 @@ function makeMadlib(wordsArray){
     . Good luck on hatching your dragon! `;
 
     document.getElementsByTagName("h1")[0].style.display = "none";
+    document.getElementsByTagName("footer")[0].style.display = "none";
     madlib.innerHTML = myText;
 
  document.getElementById('madlib').style.marginTop='320px';
