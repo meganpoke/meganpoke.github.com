@@ -44,7 +44,7 @@ function makeMadlib(wordsArray){
     document.getElementsByTagName("h1")[0].style.display = "none";
     madlib.innerHTML = myText;
 
- document.getElementById('madlib').style.marginTop='350px';
+ document.getElementById('madlib').style.marginTop='320px';
     document.getElementById('madlib').style.marginLeft='60px';
     document.getElementById('madlib').style.marginRight='200px'; 
 

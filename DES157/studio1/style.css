@@ -16,10 +16,12 @@ main{
 }
 
 form {
+    margin-top: -100px;
     display: flex;
    flex-direction: column;
    font-size: 20px;
 margin-right: 350px;
+font-family: 'Potta One', cursive;
 }
 input {
     
@@ -40,6 +42,7 @@ article {
     margin-left:300px;
     margin-right: 30px;
 font-size: 26px;
+font-family: 'Potta One', cursive;
 }
 
 
@@ -55,12 +58,43 @@ input {
 
 h1 {
     margin-left: 250px;
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: 40px;
     margin-bottom: 0;
+    font-family: 'Potta One', cursive;
+    max-width: 500px;
 }
 
 button {
     margin-top: 20px;
     height: 30px;
+
+}
+
+footer {
+  position: absolute;
+    bottom: 0;
+ padding-bottom: 100px;
+    margin-top: 40px;
+    margin-left: 1000px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px; 
+    max-width: auto;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+    color:black;
+    font-family: 'Potta One', cursive;
+    white-space: nowrap;
+    
+}
+
+a:hover {
+    color: grey;
+}
+main {
+    margin-top: 0;
 }
