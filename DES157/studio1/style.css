@@ -53,6 +53,11 @@ label {
 input {
     height: 15px;
     padding-bottom: 5px;
+    border-radius: 20px;
+   border-style: solid;
+   border-width: 2px;
+   border-color: darkgray;
+
 }
 
 
@@ -66,9 +71,14 @@ h1 {
 }
 
 button {
-    margin-top: 20px;
-    height: 30px;
-
+    margin-top: 30px;
+    height: 40px;
+    font-family: 'Potta One', cursive;
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+ border-style: solid;
+ border-width: 2px;
+    
 }
 
 footer {

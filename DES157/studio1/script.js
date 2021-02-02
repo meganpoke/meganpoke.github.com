@@ -1,20 +1,20 @@
 (function(){
     'use strict';
-var myForm = document.querySelector('#myform');
-var madlib = document.querySelector('#madlib');
+const myForm = document.querySelector('#myform');
+const madlib = document.querySelector('#madlib');
 
 
 
 myForm.addEventListener('submit', function(event){
     event.preventDefault();
-    var formData = document.querySelectorAll("input[type=text]");
+    const formData = document.querySelectorAll("input[type=text]");
     processData(formData);
 
 });
 
 function processData(formData) {
-    var emptyFields = 0;
-    var words = [];
+    let emptyFields = 0;
+    const words = [];
 
     for (var eachWord of formData){
         if (eachWord.value) {
@@ -33,7 +33,7 @@ function makeMadlib(wordsArray){
 
      */
 
-     var myText = `First you need to know that a dragon egg is extremely rare and hard to find. A dragon needs approximately ${wordsArray[0]}
+     const myText = `First you need to know that a dragon egg is extremely rare and hard to find. A dragon needs approximately ${wordsArray[0]}
      days to hatch, and it can weigh from ${wordsArray[1]}
      to ${wordsArray[2]}
      kilogram. A dragon requires ${wordsArray[3]}
