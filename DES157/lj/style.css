@@ -61,3 +61,7 @@ footer a {
     margin: 10px;
     font-size: 15px;
 }
+
+h2{
+    max-width: 550px;
+}
