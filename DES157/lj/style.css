@@ -46,7 +46,7 @@ h3 {
 
 #headerimg {
     width: 600px;
-    height: 200px;
+    height: 20px;
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -64,4 +64,13 @@ footer a {
 
 h2{
     max-width: 550px;
+}
+
+img {
+    margin-top: 25px;
+}
+figcaption {
+    ffont-family: 'Imbue', serif;
+    font-size: 12px;
+    margin-top: 10px;
 }
