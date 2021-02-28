@@ -1,25 +1,62 @@
+
 body {
     font-family: Arial;
     color: #333;
     padding: 50px;
     line-height: 1.5em;
+    background-color: rgb(255, 239, 227);
+    
 }
+h1 {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+#top{
+    background-color:   rgb(255, 102, 46);
+    width: 650px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
 button { 
     padding: 10px;
+    background-color: rgb(255, 223, 220);
+    
 }
 
 div {
     padding: 20px;
+    
 }
 
 #gamecontrol, #score {
-    background-color: aliceblue;
+    background-color: orangered;
+    width: 650px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #game {
-    background-color:#eaeaea;
+    background-color:#e9dddd;
+    width: 650px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #actions {
     background-color: silver;
+    width: 650px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
