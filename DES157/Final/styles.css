@@ -1,0 +1,149 @@
+body {
+    font-family: arial;
+    color: #333;
+    background-color: rgb(190, 160, 103);
+   
+    display: flex;
+    max-width: 1200px;
+
+  margin-left: 140px;
+  margin-top: 200px;
+  
+}
+
+main {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+   
+      
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+#overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay article {
+    
+    box-sizing: border-box;
+    border-radius:4.5% ;
+    background-color:rgb(26, 24, 24);
+    padding: 20px;
+    width: 35vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+#overlay2 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay2 article {
+    box-sizing: border-box;
+    border-radius:4.5% ;
+    background-color:rgb(26, 24, 24);
+    padding: 20px;
+    width: 35vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+#overlay3 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overlay3 article {
+    box-sizing: border-box;
+    border-radius:4.5% ;
+    background-color:rgb(26, 24, 24);
+    padding: 20px;
+    width: 35vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+div {
+  
+    padding-left: 50px;
+}
+
+button {
+    margin-left: 75px;
+    position: absolute;
+    margin-top: -150px;
+    border: none;
+    color: rgb(204, 202, 202);
+    background-color:rgb(26, 24, 24);
+    font-size: x-large;
+
+}
+    
+
+h2 {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(204, 202, 202);
+    
+}
+
+image {
+    position: relative;
+    margin-left: 100px;
+}
+
+article img {
+    margin-left: 120px;
+    margin-top: 100px;
+    
+}
+
+footer {
+    margin-top: 500px;
+    display: flex;
+   
+   
+}
+a {
+    text-decoration: none;
+    color:rgb(128, 105, 63);}
+
+    a:hover {
+        color: rgb(38, 59, 59);
+    }
