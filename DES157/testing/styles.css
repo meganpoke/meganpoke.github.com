@@ -105,7 +105,7 @@ div {
 button {
     margin-left: 75px;
     position: absolute;
-    margin-top: -150px;
+    margin-top: -50px;
     border: none;
     color: rgb(204, 202, 202);
     background-color:rgb(26, 24, 24);
@@ -136,8 +136,11 @@ article img {
 
 footer {
     margin-top: 500px;
-    display: flex;
-   
+    
+    position: fixed;
+   bottom: 450px;
+   left:100px;
+right: 0%;
    
 }
 a {
@@ -146,4 +149,11 @@ a {
 
     a:hover {
         color: rgb(38, 59, 59);
+    }
+
+    h1 {
+     width: 300px;
+     position: fixed;
+     left: 150px;
+     font-size: 50pt;
     }
